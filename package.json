@@ -2,10 +2,11 @@
   "name": "message-queue",
   "version": "1.0.0",
   "description": "Trying RabbitMQ with Node.js",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node src/server.js"
   },
   "author": "anix001",
   "license": "ISC",
